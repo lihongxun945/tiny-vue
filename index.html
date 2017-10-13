@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="./dist/vue.js"></script>
+</head>
+<body>
+  <div id="a">
+    <input v-model="message" />
+    <button v-on-click="clear">Clear</button>
+    <p v-text="message"></p>
+  </div>
+
+  <script>
+    new Vue({
+      el: "#a",
+      data: {
+        message: 'hello'
+      },
+      methods: {
+        clear () {
+          this.message = ""
+        }
+      }
+    })
+  </script>
+</body>
+</html>
