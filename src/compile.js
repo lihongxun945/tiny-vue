@@ -7,7 +7,7 @@ const onRE = /^v-on:|^@/
 const modelRE = /^v-model|^@/
 const dirAttrRE = /^v-([^:]+)(?:$|:(.*)$)/
 
-export const compileDirectives = function (attrs) {
+export const compileDirectives = function (el, attrs) {
   if (!attrs) return undefined
   const dirs = []
 
@@ -33,12 +33,14 @@ export const compileDirectives = function (attrs) {
 
     function pushDir(dirName, def) {
       dirs.push({
+        el: el,
         name: dirName,
         rawName: name,
         def: def,
         arg: arg,
         value: value,
-        rawValue: value
+        rawValue: value,
+        expression: value
       })
     }
   }
@@ -95,5 +97,5 @@ function compileNodeList (nodeList, options) {
 }
 
 function compileNode (el, options) {
-  return compileDirectives(el.attributes)
+  return compileDirectives(el, el.attributes)
 }

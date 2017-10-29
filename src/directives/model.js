@@ -2,9 +2,9 @@ export default {
   bind () {
   },
   update () {
-    console.log(this.el)
-    if (this.el.tagName === 'INPUT') {
-      this.el.value = this[this.descriptor.value]
+    const el = this.descriptor.el
+    if (el.tagName === 'INPUT') {
+      el.value = this.vm[this.descriptor.value]
     }
   }
 }
