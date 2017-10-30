@@ -3,11 +3,12 @@
 ## 这是什么
 
 这是一个非常精简的vuejs的实现，主要用来学习vuejs v1.0.28 的源码。
+Vuejs 的源码写的好，但是绕来绕去的逻辑以及比较复杂的link回调很容易把新手搞晕，如果你觉得直接上手看vuejs代码比较头疼，可以先尝试看这个项目的源码。
 大部分的生命周期，函数名和vuejs是一样的。但是代码是完全重写的，除了 dep.js 和少量的函数是从vue.js复制来的。
 
 主要实现了两个功能：
 
-1. state: 响应式的数据，实现了对数据的监听，主要由三部分组成： Observer -> Dep -> Watcher
+1. state: 响应式的数据，实现了对数据的监听，主要由三部分组成： State -> Observer -> Dep -> Watcher
 2. directive: 对directive的支持，可以自己实现不同的directive。主要由三部分组成：Compile -> Directive -> directives/
 
 你可以这样使用：
