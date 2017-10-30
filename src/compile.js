@@ -1,10 +1,10 @@
 import dirOn from './directives/on.js'
-import dirBind from './directives/bind.js'
+import dirText from './directives/text.js'
 import dirModel from './directives/model.js'
 
-const bindRE = /^v-bind:|^:/
 const onRE = /^v-on:|^@/
-const modelRE = /^v-model|^@/
+const modelRE = /^v-model/
+const textRE = /^v-text/
 const dirAttrRE = /^v-([^:]+)(?:$|:(.*)$)/
 
 export const compileDirectives = function (el, attrs) {
@@ -22,12 +22,12 @@ export const compileDirectives = function (el, attrs) {
 			if (onRE.test(name)) {
         arg = name.replace(onRE, '')
 				pushDir('on', dirOn)
-			} else if (bindRE.test(name)) {
-        arg = name.replace(bindRE, '')
-				pushDir('bind', dirBind)
 			} else if (modelRE.test(name)) {
         arg = name.replace(modelRE, '')
-				pushDir('bind', dirModel)
+				pushDir('model', dirModel)
+			} else if (textRE.test(name)) {
+        arg = name.replace(textRE, '')
+				pushDir('text', dirText)
 			}
     }
 

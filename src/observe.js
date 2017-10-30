@@ -3,6 +3,7 @@ import Dep from  './dep.js'
 function Observer(value) {
   this.value = value
   this.dep = new Dep()
+  // TODO: support Array
   this.walk(value)
 }
 
@@ -71,31 +72,27 @@ export function defineReactive (obj, key, val) {
     return
   }
 
-  // cater for pre-defined getter/setters
   var getter = property && property.get
   var setter = property && property.set
 
-  var childOb = observe(val)
   Object.defineProperty(obj, key, {
     enumerable: true,
     configurable: true,
     get: function reactiveGetter () {
+      console.log(`observer.get`)
       var value = getter ? getter.call(obj) : val
       if (Dep.target) {
         dep.depend()
-        if (childOb) {
-          childOb.dep.depend()
-        }
       }
       return value
     },
     set: function reactiveSetter (newVal) {
+      console.log(`observer.set:${newVal}`)
       var value = getter ? getter.call(obj) : val
       if (newVal === value) {
         return
       }
       val = newVal
-      childOb = observe(newVal)
       dep.notify()
     }
   })

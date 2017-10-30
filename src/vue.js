@@ -4,7 +4,6 @@ import state from './state.js'
 
 class Vue {
   constructor (options) {
-    this._directives = []
     this.init(options)
   }
 
@@ -12,6 +11,9 @@ class Vue {
    * 初始化的入口
    */
   init (options) {
+    this._directives = []
+    this._watchers = []
+
     const el = document.querySelector(options.el)
 
     options._containerAttrs = toArray(el.attributes) // get attrs of el

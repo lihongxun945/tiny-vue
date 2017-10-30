@@ -20,6 +20,15 @@ Directive.prototype._bind = function () {
   if (this.bind) this.bind()
   if (this.update) this.update()
 
+  if (this.update) {
+    const dir = this
+    this._update = function (val, oldVal) {
+      dir.update(val, oldVal)
+    }
+  } else {
+    this._update = function () {}
+  }
+
   var watcher = this._watcher = new Watcher(
     this.vm,
     this.expression,
@@ -31,8 +40,4 @@ Directive.prototype._bind = function () {
   if (this.update) {
     this.update(watcher.value)
   }   
-}
-
-Directive.prototype._update = function () {
-  this.update && this.update()
 }
