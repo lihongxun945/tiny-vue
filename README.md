@@ -46,10 +46,10 @@ You can use it ike this:
 
 ## implements
 
-![1](./1.png)
-![2](./2.png)
-![3](./3.png)
-![4](./4.png)
+![1](./imgs/1.png)
+![2](./imgs/2.png)
+![3](./imgs/3.png)
+![4](./imgs/4.png)
 
 ## Build Setup
 
