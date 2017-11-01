@@ -43,7 +43,6 @@ You can use it ike this:
 3. two-way data binding
 4. more feature is coming
 
-
 ## implements
 
 ![1](./imgs/1.png)
