@@ -2,6 +2,10 @@
 
 ## 这是什么
 
+[English README](./README.md)
+
+这里有非常详细的教程，教你怎么写一个自己的tiny-vue [8 小时实现自己的迷你版vuejs](http://blog.csdn.net/lihongxun945/article/category/7259172)
+
 这是一个非常精简的vuejs的实现，主要用来学习vuejs v1.0.28 的源码。
 Vuejs 的源码写的好，但是绕来绕去的逻辑以及比较复杂的link回调很容易把新手搞晕，如果你觉得直接上手看vuejs代码比较头疼，可以先尝试看这个项目的源码。
 大部分的生命周期，函数名和vuejs是一样的。但是代码是完全重写的，除了 dep.js 和少量的函数是从vue.js复制来的。
