@@ -4,7 +4,7 @@
 
 [中文版文档](./README.cn.md)
 
-There is several detailed articles show how to write tiny-vue (in Chinese) [Write tiny-vue in 8 hours](https://github.com/lihongxun945/myblog/labels/vue1.0%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)
+There is several detailed articles show how to write tiny-vue (in Chinese) [Diving into Vue1.0 source code](https://github.com/lihongxun945/myblog/labels/vue1.0%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)
 
 A dead simple implement of vuejs, use to learn the source code of vuejs (v1.0.28).
 Vuejs source code is very elegant, but it's difficult for beginner to understand. You can try to learn this project, it will be very helpful to understand vuejs.
