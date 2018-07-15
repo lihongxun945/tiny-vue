@@ -4,7 +4,7 @@
 
 [English README](./README.md)
 
-这里有非常详细的教程，教你怎么写一个自己的tiny-vue [8 小时实现自己的迷你版vuejs](http://blog.csdn.net/lihongxun945/article/category/7259172)
+这里有非常详细的教程，教你怎么写一个自己的tiny-vue [vue1.0源码解析系列](https://github.com/lihongxun945/myblog/labels/vue1.0%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)
 
 这是一个非常精简的vuejs的实现，主要用来学习vuejs v1.0.28 的源码。
 Vuejs 的源码写的好，但是绕来绕去的逻辑以及比较复杂的link回调很容易把新手搞晕，如果你觉得直接上手看vuejs代码比较头疼，可以先尝试看这个项目的源码。
