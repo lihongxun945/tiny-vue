@@ -1,0 +1,342 @@
+<mxfile host="65bd71144e" modified="2020-10-21T07:18:27.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="AkazlKLF4j-kxqCUVLia" version="13.6.5">
+    <diagram id="7i7d4FgGSrM9iM437uWD" name="第 1 页">
+        <mxGraphModel dx="3207" dy="1425" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" background="#F1FAEE" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;entryX=0.455;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="40" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="_initData()：为$options中的data添加代理，并绑定在Vue上" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="284" y="181" width="229" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="42" target="68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="State：data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="118" y="156" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="43" target="45" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="43" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="413" y="49"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2D7600;fillColor=#60a917;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="43" target="88" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Vue：看Vue.js文件" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="88" y="-45" width="151" height="151" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;span&gt;$options&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="-39" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="46" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="746" y="-83" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="el" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="561" y="-87" width="81" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="method" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="559" y="20" width="91" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="data" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="559" y="-34" width="94" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="_containerAttrs：el的一些属性" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="556" y="69" width="121" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Observer：对data的每一项进行代理" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="122" y="426" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="51" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="observe()：对data的每一项设置getter和setter并维护一个专属Dep" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="288" y="368" width="249" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Dep：记录对data的依赖" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="133" y="741" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;span&gt;全局uid：自增，保证每个Dep都有唯一id&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="293" y="829.5" width="152.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="①：将Vue的属性方法以及&lt;br&gt;dom整合成一个数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="211" y="-48" width="186" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="②：执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="411" y="90" width="70" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="③：传入$optons的data的message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="277" width="244" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;span&gt;全局target：当有watcher想要收集依赖的时候，便会有值&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="295.5" y="898.5" width="152.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="64" target="160" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="64" target="161" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="defineReactive()：对message进行getter和setter代理" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="731" y="368" width="258" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="④：传入message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="568.5" y="371" width="131" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;span&gt;vm：Vue&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="284" y="457" width="152.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="68" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="252" y="587"/>
+                            <mxPoint x="252" y="799"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="&lt;span&gt;Dep&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="287.5" y="542" width="152.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="depend()：调用访问该值的watcher的addDep()" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="289.5" y="662" width="249" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="70" target="117" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="notify()：提醒所有依赖于该值的watcher更新" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="289.5" y="750" width="249" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Compile" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-952" y="-75" width="114" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#2D7600;fillColor=#60a917;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="72" target="100" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="compileDirectives()：根据节点的attributes属性与‘事先指令’（比如v-model）对应起来" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-763" y="-41" width="229" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="attributes：这里存储的是节点绑定好的指令数据，比如input输入框绑定的是v-modal指令以及message的值。这些数据非常重要，建议调试看这个属性" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="752.5" y="-133" width="215" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Directive：每个节点的指令会对应一个Directive" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-962" y="153" width="124" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="82" target="133" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="_bind()：生成watcher，并绑定directive的指令对应的值在watcher上" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-765" y="180" width="229" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="bind()：事先指令的bind()方法" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-762.5" y="247" width="229" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="&lt;span&gt;watcher：目前只有编译指令的时候才对与指令有关的值创建对应的watcher&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-772.5" y="94" width="244" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="&amp;nbsp; Watcher：在创建 的时候，获取指令所依赖的数据，进行依赖绑定" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-955" y="557" width="135" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;span&gt;depsId：&lt;/span&gt;用来保存与该watcher有关的depid" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-744" y="585" width="171" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="&lt;span&gt;deps：用来保存与该watcher有关的dep&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-736" y="507" width="169" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2D7600;fillColor=#60a917;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="88" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="_compile()" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-303" y="-33" width="229" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;font color=&quot;#33ff33&quot;&gt;①：执行&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-16" y="-48" width="70" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;font color=&quot;#33ff33&quot;&gt;②：执行&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-454" y="-45" width="70" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="lifeCycle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-68" y="171" width="106" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2D7600;fillColor=#60a917;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="100" target="82" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="_bindDir()：此刻才创建Directive，将设定好的指令(v-model)的函数(bind和update等)绑定在Directive。并将生成的directive添加在Vue的_directives" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-369" y="138" width="261" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="_compile()：编译节点的attributes成函数" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-377" y="256" width="272" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="addDep()：给watcher要访问的值所绑定的Dep添加此watcher，同时此watcher保存着依赖的depId" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-765" y="658" width="229" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;font color=&quot;#33ff33&quot;&gt;③：对于每一个对应好的指令执行&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-523" y="52" width="235" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;font color=&quot;#33ff33&quot;&gt;④：执行&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="-494" y="188" width="70" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;span style=&quot;font-size: 20px&quot;&gt;蓝线黑字：_initState()初始化state过程&lt;br&gt;&lt;font color=&quot;#33ff33&quot;&gt;绿线绿字：compile()编译过程&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#9933ff&quot; style=&quot;font-size: 20px&quot;&gt;紫线紫字：message变化导致输入框和p标签的变化&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff8000&quot;&gt;橙线橙字：input组件输入导致message的变化&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-161" y="-181" width="462" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="&lt;font color=&quot;#9933ff&quot;&gt;①：更改data的message触发setter&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="659" y="690" width="243" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.464;entryY=1.076;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="117" target="121" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.939;exitY=0.05;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#1D3557;exitPerimeter=0;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="117" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-596" y="733"/>
+                            <mxPoint x="-411" y="733"/>
+                            <mxPoint x="-411" y="472"/>
+                            <mxPoint x="135" y="472"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="&lt;span&gt;cb：是Directive传递进来的'事先指令'的update方法&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-755" y="733" width="188" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="&lt;font color=&quot;#9933ff&quot;&gt;②：提醒所有依赖该值的watcher&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-252" y="818" width="228" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="el" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-78" y="517" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#BD7000;fontColor=#1D3557;fillColor=#f0a30a;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="121" target="82" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="&lt;span&gt;value/text/html/class/property&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-341" y="532" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="&lt;font color=&quot;#9933ff&quot;&gt;③：修改el的属性&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-333" y="733" width="127" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="&lt;font color=&quot;#9933ff&quot;&gt;③：修改state值，比如computed&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-341" y="443" width="228" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="&lt;span&gt;_observers：所有的observer&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="412" y="-207" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="&lt;span&gt;_watchers：所有的watcher&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="397" y="-123" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="_directives：所有的directive" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="532" y="-160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="&lt;font color=&quot;#ff8000&quot;&gt;①：触发bind()函数给el绑定的事件函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-522" y="356" width="270" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="133" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-741" y="419"/>
+                            <mxPoint x="174" y="419"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="133" value="setter()：通过全局的Vue+watcher中保存的字段名来设置state中对应的值" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-970" y="472" width="229" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="&lt;font color=&quot;#ff8000&quot;&gt;②：获取对应的改变的值&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-947.5" y="349" width="175" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="&lt;font color=&quot;#ff8000&quot;&gt;③：触发state的setter()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-357" y="386" width="165" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="&lt;font color=&quot;#ff8000&quot;&gt;④：触发setter()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="192" y="339" width="117" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="&lt;font color=&quot;#ff8000&quot;&gt;⑤：Dep提醒所有依赖该值的watcher&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="95" y="629" width="255" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#A50040;fillColor=#d80073;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="160" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="getter()" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="459" y="461" width="141" height="59" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#A50040;fillColor=#d80073;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;curved=1;sketch=1;" parent="1" source="161" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="600" y="766"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="189" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#1D3557;" edge="1" parent="1" source="161" target="70">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="653" y="557"/>
+                            <mxPoint x="653" y="799"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="161" value="setter()" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="459" y="542" width="141" height="59" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="&lt;font color=&quot;#ff1975&quot;&gt;执行&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="626" y="527" width="40" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="&lt;font color=&quot;#ff1975&quot;&gt;执行&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="589" y="702" width="40" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Observer并非作为一个模块存在，它负责在_initState()阶段给state代理getter和setter，并保存着唯一的Dep&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="458" y="879" width="950" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Directive并非作为一个模块存在，它负责在complie()节点，对每一个指令维护一个Directive，&lt;br&gt;并对依赖于该指令的值（可能为多个）创建一个watcher，并在此刻绑定依赖Dep。&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="462" y="921" width="828" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="&lt;span style=&quot;font-size: 20px&quot;&gt;圆形代表模块，可以对应于每个文件（比如圆形Observer对应于Observer.js文件），&lt;br&gt;每个圆形的左边或者右边是该模块所拥有的方法和属性。&lt;br&gt;方形且内容为XXX()的代表方法（比如_initData()），其他形状为属性。&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-970" y="-185" width="753" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="&lt;div&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;&lt;b&gt;结论：&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="461" y="840" width="100" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="&lt;span style=&quot;font-size: 30px&quot;&gt;&lt;b&gt;名词解析：&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-969.5" y="824" width="160" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="&lt;span style=&quot;font-size: 20px&quot;&gt;事先指令：就是directives文件夹里面的各个文件，比如v-modal，这些就是事先写好的指令&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-970" y="866" width="806" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="&lt;span style=&quot;font-size: 30px&quot;&gt;&lt;b&gt;看前提示：&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-970" y="-235" width="160" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="⑤：设置getter函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="698" y="461" width="138" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="⑤：设置setter函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#1D3557;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="837" y="520" width="137" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="update()：事先指令的update()方法，用来修改dom的值或者state" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=15;fontColor=#1D3557;size=-3.7999801635742188;sketch=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-762.5" y="314" width="229" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="&lt;span style=&quot;font-size: 30px&quot;&gt;&lt;b&gt;流程：&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-161" y="-235" width="100" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="&lt;span style=&quot;font-size: 20px&quot;&gt;指令对应的值：比如input标签有个v-model指令，然后指令绑定的值为message&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-969.5" y="901" width="706" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;全局target：按照该图的流程，state的的每一个值（data或者computed的值），都绑定着唯一一个Dep。&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 全局uid和全局target是一个全局Dep所拥有的，并非是每个唯一的dep所拥有的，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 全局target是为了watcher在绑定依赖的过程中的标识&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-965.5" y="944" width="928" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="&lt;span style=&quot;font-size: 20px&quot;&gt;所以对于message，其与el的输入框以及p标签的value，message和value两者的依赖关系是&lt;br&gt;通过dep以及watcher来实现的&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="462" y="981" width="815" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="&lt;span style=&quot;font-size: 30px&quot;&gt;&lt;b&gt;使用提示：&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;arcSize=50;sketch=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-970" y="-360" width="160" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="&lt;span style=&quot;font-size: 20px&quot;&gt;这个.drawio文件打开方法：在vscode插件下载Draw.io Integration插件，然后点击vscode打开该文件即可。&lt;br&gt;这张图展示的是Vue的初始化state、编译compile、以及数据响应的过程。和tiny-vue的代码是对应起来的。&lt;br&gt;一定要调试着看，调试方法：&lt;/span&gt;&lt;a href=&quot;https://juejin.im/post/6885912975555706888&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;https://juejin.im/post/6885912975555706888&lt;/font&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;sketch=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-969.5" y="-316" width="948" height="52" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
